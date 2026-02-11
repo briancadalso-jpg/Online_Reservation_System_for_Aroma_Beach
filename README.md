@@ -1,1 +1,7 @@
-# Online_Reservation_System_for_Aroma_Beach
+ONLINE RESERVATION SYSTEM FOR AROMA BEACH
+
+Leader: Chuck Brian T. Cadalso
+Secretary: Jiro Villaflores
+Members: Angeline Altubar, 
+         Joemarie Cataylo,
+         Anale Cabanag
