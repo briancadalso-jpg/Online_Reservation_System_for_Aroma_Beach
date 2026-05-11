@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "flowbite": "^4.0.1"
+    "@tailwindcss/cli": "^4.2.1",
+    "flowbite": "^4.0.1",
+    "tailwindcss": "^4.2.1"
+  },
+  "devDependencies": {
+    "daisyui": "^5.5.19"
   }
 }
