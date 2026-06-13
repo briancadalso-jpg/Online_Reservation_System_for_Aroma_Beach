@@ -1,11 +1,13 @@
-<?php include 'src/includes/header.php' ?>
+<?php 
+$pageTitle = 'Guest Reservations';
+include 'src/includes/header.php'; 
+?>
 
-
-
-
+<section class="container mx-auto py-12 px-4">
+    <div class="flex flex-wrap gap-8 justify-center">
 <div class="w-full max-w-sm bg-neutral-primary-soft p-6 border border-default rounded-base shadow-xs">
     <a href="#">
-        <img class="rounded-base mb-6" src="assets/photos/download.jpg"/>
+        <img class="rounded-base mb-6 h-48 w-full object-cover" src="<?php echo e(frontend_asset('campuyo1.jpg')); ?>"/>
     </a>
     <div>
         <div class="flex items-center space-x-3 mb-6">
@@ -19,14 +21,10 @@
             <span class="bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">4.8 out of 5</span>
         </div>
         <a href="#">
-            <h5 class="text-xl text-heading font-semibold tracking-tight">Apple Watch Series 7 GPS, Aluminium Case, Starlight</h5>
+            <h5 class="text-xl text-heading font-semibold tracking-tight">Experience Aroma Beach</h5>
         </a>
-        <div class="flex items-center justify-between mt-6">
-            <button type="button" class="inline-flex items-center  text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">
-                <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/></svg>
-                Add to cart
-            </button>
-        </div>
+        <p class="mt-4 text-sm text-body leading-relaxed">Book your stay at our premium native cottages. Enjoy the Manjuyod Sandbar and authentic island comfort.</p>
+        <a href="<?php echo e(route_for_section('home.php', 'users')); ?>" class="mt-6 block w-full text-center text-white bg-brand hover:bg-brand-strong font-medium rounded-base text-sm px-4 py-2.5 transition-all">Go to Guest Portal</a>
 </div>
 
 
@@ -68,8 +66,7 @@
     </ul>
     <button type="button" class="w-full text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Choose plan</button>
 </div>
-</div>
+    </div>
+</section>
 
-
-
-<?php include 'src/includes/footer.php' ?>
+<?php include 'src/includes/footer.php'; ?>
